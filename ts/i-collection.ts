@@ -1,6 +1,6 @@
 /*
  * Created by Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/).
- * 10:53 PM -- June 11th, 2019.
+ * 4:16 PM -- September 14th, 2021
  * Project: @jsdsl/collections
  * 
  * @jsdsl/collections - A set of interfaces, abstract classes, and types that seek to describe most basic data
@@ -20,18 +20,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-
-/**
- * NPM main class used for exporting this package's contents.
- *
- * @author Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/)
- * @version v0.1.0
- * @since v0.1.0
- */
-
-export { ICollection } from "./i-collection"
-export { IList } from "./i-list";
-export { IQueue } from "./i-queue";
-export { IStack } from "./i-stack";
-export { IMap } from "./i-map";
-export { IKeyValuePair } from "./i-key-value-pair";
+ 
+export interface ICollection<T> {
+	
+	contains(element: T): boolean;
+	
+	isEmpty(): boolean;
+	
+	size(): number;
+	
+	clear(): void;
+	
+	toArray(): T[];
+	
+}
