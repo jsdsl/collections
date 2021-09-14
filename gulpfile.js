@@ -1,9 +1,10 @@
 /*
  * Created by Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/).
  * 8:48 PM -- June 16th, 2019.
- * Project: <name>
+ * Project: @jsdsl/collections
  * 
- * <name> - <desc>
+ * @jsdsl/collections - A set of interfaces, abstract classes, and types that seek to describe most basic data
+ * structures.
  * Copyright (C) 2021 Trevor Sears
  * 
  * This program is free software: you can redistribute it and/or modify

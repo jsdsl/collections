@@ -1,7 +1,9 @@
 {
-	"name": "<name>",
-	"version": "<version>",
-	"description": "<desc>",
+	"name": "@jsdsl/collections",
+	"version": "0.1.0",
+	"description": "A set of interfaces",
+		"abstract classes",
+		"and types that seek to describe most basic data structures.",
 	"main": "js/main",
 	"types": ".d.ts/main",
 	"scripts": {
@@ -10,15 +12,26 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/<github_org>/<base_name>.git"
+		"url": "git+https://github.com/jsdsl/collections.git"
 	},
-	"keywords": [],
+	"keywords": [
+		"data-structure",
+		"data-structures",
+		"adt",
+		"adts",
+		"collections",
+		"containers",
+		"list",
+		"map",
+		"dictionary",
+		"typescript"
+	],
 	"author": "Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/)",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
-		"url": "https://github.com/<github_org>/<base_name>/issues"
+		"url": "https://github.com/jsdsl/collections/issues"
 	},
-	"homepage": "https://github.com/<github_org>/<base_name>#readme",
+	"homepage": "https://github.com/jsdsl/collections#readme",
 	"devDependencies": {
 		"typescript": "latest",
 		"tslint": "latest",
